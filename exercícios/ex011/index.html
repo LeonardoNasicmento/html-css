@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body> 
+<h1>Imagem dinâmica</h1>
+    <picture>
+        <source media="(max-width:1050px)" srcset="imagens/foto-p.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexivel">
+
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    
+<audio preload="auto" autoplay controls loop>
+    <source src="midia/Juvenility.mp3" type="audio/mpeg">
+    <a href="midia/Juvenility.mp3"></a>
+</audio>
+<h1>Reprodução de video</h1>
+<video src="midia/monza.mp4" width="560" height="560" controls></video>
+<h1>GTR34</h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HNBjGo73FXs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>
